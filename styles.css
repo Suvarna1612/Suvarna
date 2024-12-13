@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #5a51d8;
+    border-radius: 5px;
+}
+
+/* Welcome Section Styles (Index Page) */
+.welcome-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background to complement the image */
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 100px auto;
+    max-width: 900px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-container h1 {
+    font-size: 3.5em;
+    color: #62bef8; /* Gold color to highlight the text */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome-container p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #fff;
+}
+
+/* Specific Background for Index Page */
+body.index-page {
+    background-image: url('background.png'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
+    height: 100vh; /* Ensure the background covers the entire viewport */
+    margin: 0;
+}
+
+/* Specific Background for Places Page */
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png'); /* Use the same background image as index.html */
+    background-size: cover; /* Ensure the background image covers the full page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    color: white;
+    box-sizing: border-box;
+}
+
+/* Specific Styling for the Places Page */
+#places {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better readability */
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 100px auto;
+    max-width: 900px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#places h1 {
+    font-size: 3em;
+    color: #78a7f3; /* Gold color for heading */
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#places ul {
+    list-style: none;
+    padding: 0;
+}
+
+#places ul li {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #fff;
+    text-transform: uppercase;
+    transition: color 0.3s, transform 0.3s;
+}
+
+#places ul li:hover {
+    color: #5a51d8; /* Highlight color */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+
+/* History Section Styles */
+#history {
+    padding: 40px 20px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+#history h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+#history h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #2C3E50;
+}
+
+#history p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+/* History Image Styling */
+.history-image {
+    width: 80%; /* Reduce image width to 80% */
+    max-width: 800px; /* Set a maximum width for larger screens */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block; /* Centers the image horizontally */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 0;
+}
